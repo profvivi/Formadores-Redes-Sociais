@@ -7,10 +7,12 @@ async function vizualizarInformacoesGlobais() {
     console.log(dados);
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem ${dados.total_pessoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_conectadas} estão conectadas em alguma rede social e passam em média ${dados.tempo_medio} horas conectadas.`
-    const container = document.getElementById('graficos-container')
-    container.appendChild(paragrafo);
-
+    paragrafo.innerHTML = `Em um mundo com 
+    ${dados.total_pessoas_mundo} de pessoas e
+    que aproximadamente ${dados.total_pessoas_com_acesso_a_educacao}
+    emerge como a verdadeira chave para a transformação social. 
+    ${dados.tempo_medio_dia_estudando} horas conectadas ${dados.total_pessoas_com_educacao_superior}.`
+    console.log(paragrafo)
 
 
 
