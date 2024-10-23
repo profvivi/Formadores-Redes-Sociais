@@ -18,12 +18,5 @@ const container = document.getElementById('graficos-container')
 container.appendChild(paragrafo)
 }
 
-
-
-
-    
-
-}
-
 vizualizarInformacoesGlobais();
 
