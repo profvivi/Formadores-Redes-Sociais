@@ -1,19 +1,6 @@
-var json = {
-    person: [
-    {
 
 {
     "total_pessoas_mundo": 7.888e9,
     "total_pessoas_com_acesso_a_educacao": 6.0e9,
     "tempo_medio_dia_estudando": 4.0  
 }
-//console.log(json);
-for(var i=0;i< json.person.length; i++){
-    var html = "<tr>";
-    html +="<td>"+json.person[i].author+"</td>";
-    html +="<td>"+json.person[i].title+"</td>";
-    html +="<td>"+json.person[i].url+"</td>";
-    html +="<td>"+json.person[i].upvotes+"</td>";
-    html +="</tr>";
-    $('table tbody').append(html);
-  }
