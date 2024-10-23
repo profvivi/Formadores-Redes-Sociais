@@ -14,8 +14,7 @@ async function vizualizarInformacoesGlobais() {
         Sendo que ${dados.total_pessoas_com_acesso_a_educacao} de pessoas têm acesso à educação com tempo médio 
         tempo de ${dados.tempo_medio_dia_estudando} horas de estudos por dia.`
 
-const container = document.getElementById(‘graficos-
-container’)
+const container = document.getElementById('graficos-container')
 container.appendChild(paragrafo)
 }
 
