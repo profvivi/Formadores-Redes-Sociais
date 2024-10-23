@@ -13,10 +13,11 @@ async function vizualizarInformacoesGlobais() {
         como a verdadeira chave para a transformação social. 
         Sendo que ${dados.total_pessoas_com_acesso_a_educacao} de pessoas têm acesso à educação com tempo médio 
         tempo de ${dados.tempo_medio_dia_estudando} horas de estudos por dia.`
+        console.log(paragrafo)
 
-const container = document.getElementById('graficos-container')
-container.appendChild(paragrafo)
-}
-
-vizualizarInformacoesGlobais();
+        const container = document.getElementById('graficos-container')
+        container.appendChild(paragrafo)
+        }
+    
+        visualizarInformacoesGlobais()  //invocar a função
 
