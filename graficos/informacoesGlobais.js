@@ -27,7 +27,7 @@ container.appendChild(paragrafo)
 
     
 
-
+}
 
 vizualizarInformacoesGlobais();
 
