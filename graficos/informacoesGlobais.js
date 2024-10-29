@@ -1,4 +1,5 @@
 const url='https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/graficos/dados-globais.json';
+
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
