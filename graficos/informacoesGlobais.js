@@ -1,4 +1,4 @@
-/*const url=https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/db.json;
+const url='https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/db.json';
 
 
 async function vizualizarInformacoesGlobais() {
