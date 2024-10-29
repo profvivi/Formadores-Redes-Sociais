@@ -1,4 +1,4 @@
-const url='https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/dados.json';
+const url='https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/dados-globais.json';
 
 
 async function vizualizarInformacoesGlobais() {
