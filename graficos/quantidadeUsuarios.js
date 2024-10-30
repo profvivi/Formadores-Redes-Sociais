@@ -27,7 +27,7 @@ async function quantidadeUsuariosPorRede() {
             font: {
                 color: getCSS('--primary-color'),
                 size: 30,
-                font: getCSS('--primary-color')
+                font: getCSS('--font')
             }
         },
         xaxis: {
