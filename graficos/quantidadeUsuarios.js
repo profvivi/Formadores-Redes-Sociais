@@ -22,7 +22,7 @@ async function quantidadeUsuariosPorRede() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Educação',
+            text: 'Redes sociais com mais usuários',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -33,7 +33,7 @@ async function quantidadeUsuariosPorRede() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Categorias',
+                text: 'Nome das redes',
                 font: {
                     color: getCSS('--secundary-color')
                 }
@@ -42,7 +42,7 @@ async function quantidadeUsuariosPorRede() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Total de pessoas no mundo',
+                text: 'Bilhões de usuários ativos',
                 font: {
                     color: getCSS('--secundary-color')
                 }
