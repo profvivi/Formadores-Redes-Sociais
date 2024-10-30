@@ -35,7 +35,7 @@ async function quantidadeUsuariosPorRede() {
             title: {
                 text: 'Nome das redes',
                 font: {
-                    color: getCSS('--secondary-color')
+                    color: getCSS('--secundary-color')
                 }
             }
         },
@@ -44,7 +44,7 @@ async function quantidadeUsuariosPorRede() {
             title: {
                 text: 'Bilhões de usuários ativos',
                 font: {
-                    color: getCSS('--secondary-color')
+                    color: getCSS('--secundary-color')
                 }
             }
         }
