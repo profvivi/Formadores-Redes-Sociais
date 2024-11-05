@@ -4,12 +4,12 @@ async function quantidadeUsuariosPorRede() {
     const url = 'https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/graficos/numero-usuarios.json';
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasRedes = Object.keys(dados)
+    const dadosNaEducacao = Object.keys(dados)
     const quantidadeDeUsuarios = Object.values(dados)
 
     const data = [
         {
-            x: nomeDasRedes, 
+            x: dadosNaEducacao, 
             y: quantidadeDeUsuarios, 
             type: 'bar',
             marker: {
