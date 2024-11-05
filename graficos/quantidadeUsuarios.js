@@ -42,7 +42,7 @@ async function quantidadeUsuariosPorRede() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Total de pessoas com acesso à educação',
+                text: 'Total de pessoas em bilhões com acesso à educação',
                 font: {
                     color: getCSS('--secundary-color')
                 }
