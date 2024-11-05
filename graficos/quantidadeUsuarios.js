@@ -22,7 +22,7 @@ async function quantidadeUsuariosPorRede() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Redes sociais com mais usuários',
+            text: 'Dados  de Acesso à Educação',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -33,7 +33,7 @@ async function quantidadeUsuariosPorRede() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Nome das redes',
+                text: 'Dados Educação',
                 font: {
                     color: getCSS('--secundary-color')
                 }
