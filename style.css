@@ -58,7 +58,7 @@ nav a:hover{
 .graficos-container__texto{
     font-size: 1.3rem;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     border: var(--secundary-color) solid 2px;
 }
 
