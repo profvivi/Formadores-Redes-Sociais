@@ -22,7 +22,7 @@ async function quantidadeUsuariosPorRede() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Dados  de Acesso à Educação',
+            text: 'Dados de Acesso à Educação',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -42,7 +42,7 @@ async function quantidadeUsuariosPorRede() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'total de pessoas com acesso à educação',
+                text: 'Total de pessoas com acesso à educação',
                 font: {
                     color: getCSS('--secundary-color')
                 }
