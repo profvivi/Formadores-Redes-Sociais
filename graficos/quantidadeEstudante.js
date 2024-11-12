@@ -1,6 +1,6 @@
 import { getCSS, tickConfig } from "./common.js"
 
-async function quantidadeUsuariosPorRede() {
+async function quantidadeEstudante() {
     const url = 'https://raw.githubusercontent.com/profvivi/Formadores-Redes-Sociais/refs/heads/main/graficos/numero-usuarios.json';
     const res = await fetch(url)
     const dados = await res.json()
@@ -56,4 +56,4 @@ async function quantidadeUsuariosPorRede() {
     Plotly.newPlot(grafico, data, laytout)
 }
 
-quantidadeUsuariosPorRede()
+quantidadeEstudante()
