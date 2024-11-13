@@ -2,8 +2,8 @@ import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeEstudante() {
     const url = 'https://raw.githubusercontent.com/profvivi/Communication/refs/heads/main/Estudante/numero-usuarios.json';
-    const url = 'https://raw.githubusercontent.com/profvivi/Communication/refs/heads/main/Estudante/numerosEstudante.json';
-    const res = await fetch(url, url)
+    //const url = 'https://raw.githubusercontent.com/profvivi/Communication/refs/heads/main/Estudante/numerosEstudante.json';
+    const res = await fetch(url)
     const dados = await res.json()
     const dadosNaEducacao = Object.keys(dados)
     const quantidadeDeEstudante = Object.values(dados)
