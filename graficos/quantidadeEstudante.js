@@ -6,12 +6,12 @@ async function quantidadeEstudante() {
     const res = await fetch(url)
     const dados = await res.json()
     const dadosNaEducacao = Object.keys(dados)
-    const quantidadeDePessoas = Object.values(dados)
+    const quantidadeDeEstudante = Object.values(dados)
 
     const data = [
         {
             x: dadosNaEducacao, 
-            y: quantidadeDePessoas, 
+            y: quantidadeDeEstudante, 
             type: 'bar',
             marker: {
                 color: getCSS('--primary-color')
