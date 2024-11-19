@@ -35,7 +35,6 @@ async function quantidadeEstudante() {
             tickfont: tickConfig,
             title: {
                 text: 'Dados Educação',
-                size: 12,
                 font: {
                     color: getCSS('--secundary-color')
                 }
