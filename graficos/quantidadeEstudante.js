@@ -27,7 +27,7 @@ async function quantidadeEstudante() {
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
-                size: 30,
+                size: 20,
                 font: getCSS('--font')
             }
         },
