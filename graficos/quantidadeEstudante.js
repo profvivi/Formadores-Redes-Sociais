@@ -36,7 +36,7 @@ async function quantidadeEstudante() {
             title: {
                 text: 'Dados Educação',
                 font: {
-                    color: getCSS('--secundary-color')
+                color: getCSS('--secundary-color')
                 }
             }
         },
